@@ -3,3 +3,36 @@
     --background-color-dark: #1b1b1b;
     --background-color-white: #fff;
 }
+
+/* -----------section------------- */
+#about{
+    padding: 150px 0;
+    background-color: var(--background-color-dark);
+}
+
+/* background manitulator */
+.bg-image-start, .bg-image-end{
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-image-start {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.012) 0%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url(img/swift\ gaming\ logo\ yellow.png);
+  min-height: 100%;
+  padding: 300px 0;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+
+/* ------- navbar list links color----------- */
+.nav-li-a-color{
+    color: #fff;
+}
