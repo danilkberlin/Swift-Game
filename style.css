@@ -36,7 +36,8 @@ body{
 }
 
 
-#about{
+#about, .opening-times,
+#price{
     padding: 150px 0;
 }
 
@@ -114,6 +115,6 @@ a {
 
 .card-background{
     background-color: #1b1b1b;
-    border-image: linear-gradient(94.23deg, #5374fa 12.41%, #fd9179 52.55%, #ff6969 89.95%);
-    
+    border-color: #fff;
+    color: #fff;
 }
