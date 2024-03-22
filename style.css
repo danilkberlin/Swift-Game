@@ -4,6 +4,9 @@ body{
     color: #fff;
 }
 
+.navbar{
+  --bs-navbar-active-color: #fd9179;
+}
 
 
 /* top  */
@@ -38,7 +41,7 @@ body{
 /* Position Section */
 #about, .opening-times,
 #price, #contacts{
-    padding: 120px 0;
+    padding: 150px 0;
 }
 
 /* button color + border linial gradient*/
@@ -90,6 +93,27 @@ body{
       font-size: 24px;
       min-width: 196px;
     }
+  }
+
+  .input-group input, .input-group textarea{
+    background-color: #1b1b1b;
+    color: #fff;
+    border: none;
+    border-bottom: 2px solid #fff;
+    border-radius: 0%;
+    background-color: transparent;
+    outline: none;
+  }
+  .input-group input::placeholder, .input-group textarea::placeholder{
+    color: #fff;
+  }
+  .input-group input:focus, .input-group textarea:focus{
+    border-bottom: 1px solid white;
+    background-color: #1b1b1b;
+    color: #fff;
+    background-color: transparent;
+    outline: none;
+
   }
 
 a {
