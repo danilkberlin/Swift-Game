@@ -6,6 +6,7 @@ body{
 
 .navbar{
   --bs-navbar-active-color: #fd9179;
+  --bs-navbar-hover-color: #ffffff81;
 }
 
 
@@ -40,7 +41,7 @@ body{
 
 /* Position Section */
 #about, .opening-times,
-#price, #contacts{
+#price, #contacts, #gig{
     padding: 150px 0;
 }
 

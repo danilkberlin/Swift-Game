@@ -63,7 +63,7 @@ const langArr = {
     'tuesday-thursday' : {
         'en' : 'Friday – Sunday: 12:00-6:00',
         'de' : 'Freitag – Sonntag: 12:00–18:00',
-        'ua' : ''
+        'ua' : ''// ============= noch machen =============>
     },
 
 
@@ -72,6 +72,11 @@ const langArr = {
         'en' : 'Know more',
         'de' : 'Erfahren Sie mehr',
         'ua' : 'Дізнатися більше'
+    },
+    'reserve' : {
+        'en' : 'Reserve',
+        'de' : 'Reservieren',
+        'ua' : 'Бронювання'
     }
 
 }
